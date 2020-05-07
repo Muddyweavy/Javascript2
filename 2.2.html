@@ -3,26 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+
+    body {
+      display:flex;
+    }
+
+    div {
+      width: 100px;
+      height:100px;
+    }
+
+    div#blokje1 {
+      background-color: blue;
+    }
+    div#blokje2 {
+      background-color: green;
+      margin-top: 20px
+    }
+    div#blokje3 {
+      background-color: yellow;
+      margin-top: 40px;
+    }
+    div#blokje4 {
+      background-color: red;
+    }
+
+    </style>
   </head>
   <body>
     <a href="index.html">Opdracht2.1</a>
-    <h3 id="blokje1"></h3>
-    <h3 id="blokje2"></h3>
-    <h3 id="blokje3"></h3>
-    <h3 id="blokje4"></h3>
+    <div id="blokje1">blokje 1</div>
+    <div id="blokje2">blokje 2</div>
+    <div id="blokje3">blokje 3</div>
+    <div id="blokje4">blokje 4</div>
 
     <script>
-      document.getElementById("blokje1").innerText = "Blokje 1";
-      blokje1.style.backgroundColor = "blue";
 
-      document.getElementById("blokje2").innerText = "blokje 2";
-      blokje2.style.backgroundColor = "green";
+    var = blokje1 = document.getElementById("blokje1");
+    var = blokje2 = document.getElementById("blokje2");
+    var = blokje3 = document.getElementById("blokje3");
+    var = blokje4 = document.getElementById("blokje4");
 
-      document.getElementById("blokje3").innerText = "blokje 3";
-      blokje3.style.backgroundColor = "yellow";
 
-      document.getElementById("blokje4").innerText = "blokje4";
-      blokje4.style.backgroundColor = "red";
 
     </script>
   </body>
